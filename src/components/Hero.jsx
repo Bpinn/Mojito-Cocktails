@@ -51,8 +51,21 @@ const Hero = () => {
   const startValue= isMobile? "top 50%" : "center 60%";
   const endValue= isMobile? "120% top" : "bottom top";
 
-  
+   let t1=gsap.timeline({
+    scrollTrigger:{
+      trigger:"video",
+      start:startValue,
+      end:endValue,
+      scrub:true,
+      pin:true,  //pins the video at one place
+    },
+   });
 
+   videoRef.current.onloadedmetadata=()=>{
+    t1.to(videoRef.current,{
+      currentTime:videoRef.current.duration,
+    });
+   }
 
   },[])
   return (
