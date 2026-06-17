@@ -99,12 +99,6 @@ npm install
 npm run dev
 ```
 
-Open your browser and visit:
-
-```
-http://localhost:5173
-```
-
 ## 📦 Production Build
 
 To create a production build:
