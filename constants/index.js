@@ -102,9 +102,9 @@ const goodLists = [
 
 const storeInfo = {
  heading: "Where to Find Us",
- address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
+ address: "221, Mandala Street #401, Thamel, Kathmandu 44600, Nepal",
  contact: {
-	phone: "(555) 987-6543",
+	phone: "(+977) 9876543210",
 	email: "hello@jsmcocktail.com",
  },
 };
