@@ -78,7 +78,7 @@ Make sure you have installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+https://github.com/Bpinn/Mojito-Cocktails.git
 ```
 
 Navigate into the project:
